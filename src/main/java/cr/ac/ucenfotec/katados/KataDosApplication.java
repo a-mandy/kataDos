@@ -8,5 +8,8 @@ public class KataDosApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(KataDosApplication.class, args);
+		Generator generator = new Generator();
+		generator.generate(36);
+		
 	}
 }
