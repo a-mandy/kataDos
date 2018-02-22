@@ -7,10 +7,11 @@ import org.junit.Test;
 public class ProcesadorRomanoTest {
 
 	@Test
-	public int test1() {
-		int testValue= 0;
-		return testValue;
-		
+	public void test1() {
+		ProcesadorRomano pr= new ProcesadorRomano();
+		int resul;
+		resul=pr.convierte("");
+		assertEquals(0,resul);	
 	}
 
 }

@@ -4,7 +4,11 @@ package cr.ac.ucenfotec.katados;
 
 public class ProcesadorRomano {
 	public int convierte(String x) {
-		return 0;
+		int resul=0;
+		if(x=="") {
+			resul=0;
+		}
+		return resul;
 		
 	}
 
